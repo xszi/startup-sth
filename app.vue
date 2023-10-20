@@ -1,6 +1,7 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <!-- <NuxtWelcome /> -->
+    startup-sth
   </div>
 </template>
 <script setup></script>
