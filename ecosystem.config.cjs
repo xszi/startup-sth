@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'NuxtAppName',
+      name: 'startup-sth',
       script: './.output/server/index.mjs'
     }
   ]

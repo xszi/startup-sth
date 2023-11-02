@@ -1,6 +1,8 @@
-# Nuxt 3 Minimal Starter
+# 记录
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+1. 进入项目根目录，使用`pm2 start ecosystem.config.cjs` 部署项目; 使用`pm2 kill` 结束项目部署；
+2. 理解约定式开发;
+3. 约定路由+动态路由
 
 ## Setup
 
