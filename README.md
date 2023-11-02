@@ -4,6 +4,14 @@
 2. 理解约定式开发;
 3. 约定路由+动态路由
 
+`Failed to connect to github.com port 443 after 21063 ms: Couldn't connect to server`解决办法
+
+```
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+ipconfig/flushdns
+```
+
 ## Setup
 
 Make sure to install the dependencies:
