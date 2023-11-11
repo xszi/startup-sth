@@ -3,8 +3,9 @@
 1. 进入项目根目录，使用`pm2 start ecosystem.config.cjs` 部署项目; 使用`pm2 kill` 结束项目部署；
 2. 理解约定式开发;
 3. 约定路由+动态路由
+4. 线上访问地址：http://120.76.247.123:3000/
 
-`Failed to connect to github.com port 443 after 21063 ms: Couldn't connect to server`解决办法
+`Failed to connect to github.com port 443 after 21063 ms: Couldn't connect to server`解决办法(win+R 打开 cmd)
 
 ```
 git config --global --unset http.proxy
@@ -12,74 +13,20 @@ git config --global --unset https.proxy
 ipconfig/flushdns
 ```
 
-## Setup
+# linux 命令
 
-Make sure to install the dependencies:
+1. 删除当前目录下的所有文件及目录，并且是直接删除，无需逐一确认命令行为：
 
-```bash
-# npm
-npm install
+`rm  -rf  要删除的文件名或目录`
 
-# pnpm
-pnpm install
+2. 删除文件名 test.txt:
+   `rm  -rf   test.txt`
 
-# yarn
-yarn install
+3. 删除目录 test，不管该目录下是否有子目录或文件，都直接删除:
+   `rm  -rf   test/`
 
-# bun
-bun install
-```
+4. linux vim 使用 ctrl+c 进入命令模式
 
-## Development Server
+# TODO
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+服务器直接去 github 拉去最新代码
