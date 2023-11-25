@@ -16,8 +16,7 @@ ipconfig/flushdns
 # linux 命令
 
 1. 删除当前目录下的所有文件及目录，并且是直接删除，无需逐一确认命令行为：
-
-`rm  -rf  要删除的文件名或目录`
+   `rm  -rf  要删除的文件名或目录`
 
 2. 删除文件名 test.txt:
    `rm  -rf   test.txt`
@@ -26,6 +25,12 @@ ipconfig/flushdns
    `rm  -rf   test/`
 
 4. linux vim 使用 ctrl+c 进入命令模式
+
+5. pm2 restart [namespace]
+
+6. pm2 ls
+
+7. pm2 kill
 
 # TODO
 

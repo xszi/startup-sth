@@ -9,7 +9,7 @@
 
 <script setup>
 useHead({
-  title: ' 火星人，欢迎你',
+  title: ' 焱暒',
   viewport: 'width=device-width,initial-scale=1,maximum-scale=1 ',
   charset: 'utf-8',
   meta: [
