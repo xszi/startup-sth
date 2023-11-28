@@ -1,5 +1,5 @@
 <template>
-  <div class="">欢迎来到焱暒</div>
+  <p class="title">文旅小记</p>
   <!-- <comp-1 />
   <p><NuxtLink to="/demo1">Demo1.vue</NuxtLink></p>
   <p><NuxtLink to="/demo2-38">Demo2.vue</NuxtLink></p>
@@ -14,4 +14,9 @@
 
 <script setup></script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.title {
+  padding-top: 10px;
+  text-align: center;
+}
+</style>
