@@ -13,6 +13,11 @@ git config --global --unset https.proxy
 ipconfig/flushdns
 ```
 
+# eslint
+
+eslint失效按照下面的方法重新配置一下
+[nuxt3项目中使用eslint和prettier+commitlint附常用规则配置](https://blog.csdn.net/qwe502763576/article/details/123867837)
+
 # linux 命令
 
 1. 删除当前目录下的所有文件及目录，并且是直接删除，无需逐一确认命令行为：
